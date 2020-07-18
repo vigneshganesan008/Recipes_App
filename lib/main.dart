@@ -15,9 +15,16 @@ class MyApp extends StatelessWidget {
         accentColor: Colors.purpleAccent,
         fontFamily: "Raleway",
         textTheme: ThemeData.light().textTheme.copyWith(
-              body1: TextStyle(color: Color.fromRGBO(20, 51, 51, 1)),
-              body2: TextStyle(color: Color.fromRGBO(20, 51, 51, 1)),
-              title: TextStyle(fontSize: 20, fontFamily: "RobotoComdensed"),
+              bodyText1: TextStyle(
+                color: Color.fromRGBO(20, 51, 51, 1),
+              ),
+              bodyText2: TextStyle(
+                color: Color.fromRGBO(20, 51, 51, 1),
+              ),
+              headline6: TextStyle(
+                  fontSize: 20,
+                  fontFamily: "RobotoComdensed",
+                  fontWeight: FontWeight.bold),
             ),
       ),
       home: CategoriesScreen(),
