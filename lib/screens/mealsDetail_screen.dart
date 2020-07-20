@@ -62,7 +62,7 @@ class MealsDetails extends StatelessWidget {
                     padding: EdgeInsets.all(5),
                     child: Text(
                       selectedMeal.ingredients[index],
-                      style: TextStyle(color: Colors.white),
+                      style: TextStyle(color: Colors.black, fontSize: 18),
                     ),
                   ),
                 );
@@ -77,7 +77,10 @@ class MealsDetails extends StatelessWidget {
                   return ListTile(
                     leading: CircleAvatar(
                       backgroundColor: Theme.of(context).accentColor,
-                      child: Text("#${index + 1}"),
+                      child: Text(
+                        "#${index + 1}",
+                        style: TextStyle(fontWeight: FontWeight.bold),
+                      ),
                     ),
                     title: Text("${selectedMeal.steps[index]}"),
                   );

@@ -111,7 +111,10 @@ class MealItem extends StatelessWidget {
                       SizedBox(
                         width: 6,
                       ),
-                      Text("$duration min")
+                      Text(
+                        "$duration min",
+                        style: TextStyle(color: Theme.of(context).accentColor),
+                      )
                     ],
                   ),
                   Row(
@@ -120,7 +123,10 @@ class MealItem extends StatelessWidget {
                       SizedBox(
                         width: 6,
                       ),
-                      Text("$complexityText")
+                      Text(
+                        "$complexityText",
+                        style: TextStyle(color: Theme.of(context).accentColor),
+                      )
                     ],
                   ),
                   Row(
@@ -129,7 +135,10 @@ class MealItem extends StatelessWidget {
                       SizedBox(
                         width: 6,
                       ),
-                      Text("$affordabilityText")
+                      Text(
+                        "$affordabilityText",
+                        style: TextStyle(color: Theme.of(context).accentColor),
+                      )
                     ],
                   )
                 ],
