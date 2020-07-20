@@ -1,4 +1,3 @@
-import 'package:Meals_App/screens/categories_screen.dart';
 import 'package:Meals_App/screens/categoryMeals_screen.dart';
 import 'package:Meals_App/screens/mealsDetail_screen.dart';
 import 'package:Meals_App/screens/tabs_screen.dart';
