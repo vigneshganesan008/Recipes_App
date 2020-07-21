@@ -3,6 +3,8 @@ import '../widgets/category_item.dart';
 import "package:flutter/material.dart";
 
 class CategoriesScreen extends StatelessWidget {
+  static const routeName = "categories-screen";
+
   @override
   Widget build(BuildContext context) {
     return Padding(
