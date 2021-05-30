@@ -1,6 +1,6 @@
 # Meals_App
 
-A app used to look up recipes.
+An app used to look up recipes.
 
 ## Getting Started
 
