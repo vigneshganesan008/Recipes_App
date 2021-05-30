@@ -1,6 +1,6 @@
 # Meals_App
 
-A new Flutter project.
+A app used to look up recipes.
 
 ## Getting Started
 
